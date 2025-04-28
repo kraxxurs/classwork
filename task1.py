@@ -33,10 +33,12 @@ for i in range(len(direct_contact)):
     file1.write(str(direct_contact[i]))
     file1.write("\n")
 
-file1.close
+file1.close()
 
 file2 = open("graphy/task1_indirect.txt", "w")
 for i in range(len(indirect_contact)):
     file2.write(str(indirect_contact[i]))
     file2.write("\n")
-file2.close
+file2.close()
+
+file.close()
