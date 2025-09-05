@@ -20,7 +20,7 @@ def show(points):
                 break
             visited.append(point)
             rout.append(point)
-            show(paths[point])
+            show(paths[str(point)])
 
 
-show(paths[pointA])
+show(paths[str(pointA)])
