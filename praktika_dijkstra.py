@@ -1,7 +1,7 @@
 import heapq
 from collections import deque
 from random import*
-
+ 
 field = []
 n = int(input())
 m = int(input())
