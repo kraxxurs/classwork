@@ -4,7 +4,7 @@ from collections import defaultdict
 pointA = int(input("Введите пункт отправления (0-19): "))
 pointB = int(input("Введите пункт назначения (0-19): "))
 routes = []
-
+ 
 with open ("graphy/paths.json", "r", encoding = "utf-8") as file:
     paths: dict[int, list] = json.load(file)
 
